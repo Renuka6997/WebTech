@@ -1,0 +1,23 @@
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    color: black;
+    font-family: cursive;
+}
+ul {
+    background-color:rgb(199, 28, 28);
+}
+body {
+    background-image: url('./mountains-4767364__340.webp');
+    background-size: cover;
+}
+a {
+    
+    color: blue;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px;
+    text-shadow: turquoise;
+   
+}

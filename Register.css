@@ -1,0 +1,15 @@
+body {
+    background-image: url("./bush-4781627__340.webp");
+    background-size: cover;
+}
+table  {
+    background-image: url("./swan-4779178__340.webp");
+    background-size: cover;
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+    color:wheat;
+    font-family: cursive;
+    text-transform: capitalize;
+}

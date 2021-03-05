@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="#" method="POST" >
+        <fieldset>
+            <legend>PERSONAL DETAILS</legend>
+
+            <label for="user">username</label>
+            <input type="text" name="uname" value="" id="user">
+            <input type="range">
+            username:
+            <input type="text" name="uname" value="renu" readonly>
+
+            FirstNAME:
+            <input type="text" name="fname" value="" maxlength="6" minlength="5" placeholder="enter your fname"
+                required>
+
+            password:
+            <input type="password" name="pwd" pattern="renu1506" placeholder="enter ur pwd">
+
+            <input type="submit" value="login"> <br>
+            <button>Click Here</button> <br>
+            <input type="button" value="register"> <br>
+        </fieldset>
+
+        <fieldset>
+
+            <legend>INFO</legend>
+
+            <input type="reset" value="RESET"> <br>
+
+            <input type="radio" name="gender" value="male">MALE <br>
+            <input type="radio" name="gender" value="female">FEMALE <br>
+
+            <input type="checkbox" name="companies" value="Capgemini">CG<br>
+            <input type="checkbox" name="companies" value="Infosys">INFS <br>
+            <input type="checkbox" name="companies" value="TATA">TCS<br>
+
+            <input type="file" name="upload resume" id=""> <br>
+            <input type="color" name="" id=""> <br>
+
+            <select name="states" size="3" id="">
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Telangana">Telangana</option> 
+                <option value="Tamil Nadu">TamilNadu</option>
+                <option value="Maharashtra">Maharashtra</option>
+            </select> <br>
+
+            <input type="date" name="" id="">
+            <input type="number" max="100" min="0" step="2"> <br>
+
+            <textarea name="address" id="" cols="30" rows="10">
+               Present Address:
+            </textarea>
+        </fieldset>
+
+    </form>
+</body>
+
+</html>

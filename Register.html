@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RegForm</title>
+    <link rel="stylesheet" href="./Register.css">
+    <script>
+        //form validation code
+        function validate() {
+            if(document.form.fname.value=="") {
+                alert("please provide your first name..");
+                document.form.fname.focus();
+                return false;
+            }
+            if(document.form.lname.value=="") {
+                alert("please provide your Last name..");
+                document.form.lname.focus();
+                return false;
+            }
+            if(document.form.salutation.value=="") {
+                alert("please provide salutation..");
+                document.form.salutation.focus();
+                return false;
+            }
+            return (true);
+        }
+    </script>
+</head>
+
+<body>
+    <form action="#" name="form" onsubmit=return(validate())>
+    <center>
+        <table>
+            <tr>
+                <td align="centre">
+                    <img src="./emp.jpg" height=100 width=100 alt="">
+                </td>
+                <td>
+                    <font size=6px color="red"> Employee Registration Form</font>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="radio" name="salutation" value=""><b>Mr</b>
+                    <input type="radio" name="salutation" value=""><b>Mrs</b>
+                    <input type="radio" name="salutation" value=""><b>Ms</b> <br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>First Name</b>
+                </td>
+                <td>
+                    <input type="text" name="fname" placeholder="First Name"> <br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Last Name</b>
+                </td>
+                <td>
+                    <input type="text" name="lname" placeholder="Last Name"> <br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Mail Address1</b>
+                </td>
+                <td>
+                    <input type="email" name="" id="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Mail Address2</b>
+                </td>
+                <td>
+                    <input type="email" name="" id="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>City</b>
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>State</b>
+                </td>
+                <td>
+                    <select name="states" id="">
+                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                        <option value="Gujarat">Gujarat</option>
+                        <option value="Telangana">Telangana</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Zip</b>
+                </td>
+                <td>
+                    <input type="text" name="" id="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Upload Photo</b>
+                </td>
+                <td>
+                    <input type="file" name="" id="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>E-Mail</b>
+                </td>
+                <td>
+                    <input type="email" name="" id="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Mobile</b>
+                </td>
+                <td>
+                    <input type="text" placeholder="+91">
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="4">
+                    <b>Languages Known</b>
+                </td>
+                <td>
+                    <input type="checkbox" name="language" value="telugu" id="">Telugu <br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="language" value="english" id="">English <br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="language" value="hindi" id="">Hindi <br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="language" value="gujarathi" id="">Gujarathi
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Additional Information</b>
+                </td>
+                <td>
+                    <textarea name="information" id="" cols="30" rows="5" placeholder="Optional"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </center>
+    <footer>
+        <ul>
+            <a href="home.html">
+                <li>
+                    <h3>home</h3>
+                </li>
+            </a>
+        </ul>
+    </footer>
+</form>
+</body>
+
+</html>

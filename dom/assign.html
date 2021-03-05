@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const olElement=document.createElement('ol')
+        const ol1 =document.createElement('li')
+        ol1.textContent="cars"
+        const ul1=document.createElement('ul')
+        const li1Element=document.createElement('li')
+        li1Element.textContent="Audi"
+        const li2Element=document.createElement('li')
+        li2Element.textContent="benz"
+
+        olElement.appendChild(ol1);
+        ol1.appendChild(ul1);
+        ul1.appendChild(li1Element);
+        ul1.appendChild(li2Element);
+
+        //console.log(olElement);
+
+        document.body.appendChild(olElement);
+
+        var h1=document.createElement('h1') 
+        h1.textContent="buttons"
+
+        var b1=document.createElement('button')
+        b1.textContent="Submit"
+
+        var b2=document.createElement('button')
+        b2.textContent="login"
+
+        console.log(h1);
+
+        document.body.appendChild(h1);
+        document.body.appendChild(b1);
+        var br=document.createElement('br');
+       document.body.appendChild(br);
+        document.body.appendChild(b2);
+        </script>
+</body>
+</html>

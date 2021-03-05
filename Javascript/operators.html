@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //equal operators
+        var a = 10;
+        var str = 10;
+        if (a == str) {
+            console.log('equals to')
+        }
+        else {
+            console.log('not equal to')
+        }
+        //strict not equal to
+        var a = 100;
+        var str = 100;//not equal datatype is same but not values
+        if (a === str) {
+            console.log('equal to')
+        }
+        else {
+            console.log('not equal to')
+        }
+        //ternary
+        var age = prompt('enter ur age');
+        var status = (age >= 18) ? 'adult' : 'minor';
+        console.log(status);
+    </script>
+</body>
+
+</html>

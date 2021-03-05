@@ -1,0 +1,19 @@
+body {
+    background-image: url(./landscape-4757116__340.webp);
+    background-size: cover;
+}
+ nav {
+background-color:rgba(223, 144, 144, 0.5);
+}
+ul li {
+    color:rgb(19, 6, 6);
+    display: inline-block;
+    list-style: none;
+    text-transform: capitalize;
+    font-family: cursive;
+    padding: 40px
+}
+#one
+{
+    padding-left: 400px;
+}

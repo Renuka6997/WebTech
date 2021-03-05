@@ -1,0 +1,18 @@
+.one {
+    color: cornflowerblue;
+}
+.two {
+    color: crimson;
+}
+/* .one,.two {
+    background-color: darkcyan;
+} */
+#id1 {
+    color: darkgoldenrod;
+}
+#id2 {
+    color: darkkhaki;
+}
+/* #id1, #id2 {
+    background-color: darksalmon;
+} */

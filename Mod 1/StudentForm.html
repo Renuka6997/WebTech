@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./StudentForm.css">
+    <script>
+        function validate() {
+            if (document.form.fname.value == "") {
+                alert("please provide your first name..");
+                document.form.fname.focus();
+                return false;
+            }
+            if (document.form.lname.value == "") {
+                alert("please provide your Last name..");
+                document.form.lname.focus();
+                return false;
+            }
+            return true;
+        }
+    </script>
+
+</head>
+
+<body>
+    <form action="#" name="form" onsubmit=return(validate())>
+        <h3 style="text-align: center;"><b> Student Registration Form</b></h3>
+        <center>
+            <table>
+                <tr>
+                    <td>
+                        <b> First Name </b>
+                    </td>
+                    <td>
+                        <input type="text" name="fname" id="" max="50"> <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b> Last Name </b>
+                    </td>
+                    <td>
+                        <input type="text" name="lname" max="50"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                        <b> Email Id </b>
+                    </td>
+                    <td>
+                        <input type="email" name="email"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b> Mobile Number </b>
+                    </td>
+                    <td>
+                        <input type="text" name="Mob" max="10"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b> Gender </b>
+                    </td>
+                    <td>
+                        <input type="radio" name="salutation"><b>Male</b>
+                        <input type="radio" name="salutation"><b>Female</b><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b> Date of Birth(DOB) </b>
+                    </td>
+                    <td>
+                        <input type="date" name="dob"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b> Address </b>
+                    </td>
+                    <td>
+                        <textarea name="address" id="" cols="30" rows="10"></textarea><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b> City </b>
+                    </td>
+                    <td>
+                        <input type="text" name="city" max="50"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b> Pin Code </b>
+                    </td>
+                    <td>
+                        <input type="zip" name="pin"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b> State </b>
+                    </td>
+                    <td>
+                        <input type="text" max="50"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b> Country </b>
+                    </td>
+                    <td>
+                        <input type="text" name="country"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b> Hobbies </b>
+                    </td>
+                    <td>
+                        <span>
+                            <input type="checkbox" name="" id="">Drawing
+                            <input type="checkbox" name="" id="">Singing
+                            <input type="checkbox" name="" id="">Dancing
+                            <input type="checkbox" name="" id="">Sketching <br>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                    <td>
+                        <span>
+                            <input type="checkbox" name="" id="">others
+                            <input type="text" max="50" placeholder="EX: Teaching">
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b> Qualification </b>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="high school">High School(10th)
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" name="higher school">Higher School(12th)
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" name="graduation">Bachelors
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" name="Post Graduation">Post Graduation(Masters)
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" name="Phd">Phd <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>
+                        <b> Courses For Applied </b>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="bca">BCA(Bachelor of Computer Applications)<br>
+                        <input type="checkbox" name="b.com">B.Com(Bachelor of Commerce)<br>
+                        <input type="checkbox" name="b.sc">B.Sc(Bachelor of Science)<br>
+                        <input type="checkbox" name="ba">BA(Bachelor of Arts)<br>
+                        <input type="checkbox" name="mca">MCA(Masters of Computer Applications)<br>
+                        <input type="checkbox" name="mcom">M.Com(Master of Commerce)<br>
+                        <input type="checkbox" name="msc">MSC(Master of Science)<br>
+                        <input type="checkbox" name="ma">MA(Master of Arts)
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit">
+                        <input type="reset">
+                    </td>
+                </tr>
+            </table>
+        </center>
+</body>
+
+</html>

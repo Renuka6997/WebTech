@@ -1,0 +1,21 @@
+table  {
+    background-color:lightgray;
+    border:2px solid lightgray;
+    margin-top: 5px;
+}
+body {
+    background-image: url("./drop-of-water-4772726__340.webp");
+    background-size: cover;
+}
+h1 {
+    color: violet;
+    padding: 5px;
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+    color:black;
+    font-family: cursive;
+    text-transform: capitalize;
+    padding: 20px;
+}

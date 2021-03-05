@@ -1,0 +1,33 @@
+body {
+    background-image: url("./morning-sun-4786362__340.webp");
+    background-size: cover;
+}
+img {
+    border-radius: 60%;
+    scroll-padding-right: 200px;
+}
+h1 {
+    font-size: 70px;
+    color:black;
+    word-spacing: 20px;
+    letter-spacing: 20px;
+    padding-left: 150px;  
+}
+table {
+    border: 2px solid rgb(168, 168, 38);
+    margin: 200px;
+    background-image: url("./landscape-4757116__340\ \(1\).webp");
+    background-size: cover;
+}
+#one {
+    border-radius: 120%;
+    padding: 80px;
+}
+#two {
+    border-radius: 120%;
+    padding: 80px;
+}
+#three {
+    border-radius: 120%;
+    padding: 80px;
+}

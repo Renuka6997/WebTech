@@ -1,0 +1,21 @@
+body {
+    background-image: url("./mountains-4767364__340.webp");
+    background-size: cover;
+}
+table tr,td {
+    color: white;
+}
+img {
+    border-radius: 40%;
+}
+footer {
+    background-color: whitesmoke;
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+    color: teal;
+    font-family: cursive;
+    text-transform: capitalize;
+    padding: 10px;
+}
